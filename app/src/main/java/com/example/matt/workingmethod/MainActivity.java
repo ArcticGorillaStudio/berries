@@ -18,7 +18,8 @@ public class MainActivity extends Activity {
             return false;
         }
 
-        return try3 <= try2;
+        if (try3 <= try2) return true;
+        else return false;
 
     }
 }
